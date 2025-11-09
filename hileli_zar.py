@@ -24,10 +24,10 @@ def hileli_zar(n):
         else:
             f += 1
 
-        # s'yi her adımda hesapla
+        
         s = a + b + c + d + e + f
 
-        # oranları yazdır
+        
         print("a sayısı:", a / s)
         print("b sayısı:", b / s)
         print("c sayısı:", c / s)
@@ -35,5 +35,6 @@ def hileli_zar(n):
         print("e sayısı:", e / s)
         print("f sayısı:", f / s)
         print("------") 
+
 
 hileli_zar(36)
